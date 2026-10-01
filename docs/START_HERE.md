@@ -8,9 +8,15 @@
 
 ## 新裝置或新對話怎麼開始
 
-請對 AI 說：
+確認已經用 Codex 開啟本專案資料夾後，只要對 AI 說：
 
-> 請先閱讀 `AGENTS.md`、`docs/START_HERE.md` 與 `docs/CURRENT_STATUS.md`，再接續這個專案。涉及產品規則時，也請查閱 `docs/REQUIREMENTS.md`、`docs/DECISIONS.md` 和 `docs/OPEN_QUESTIONS.md`。
+> 讀取
+
+結束工作時只要說：
+
+> 儲存
+
+兩個快捷指令的完整行為定義在專案根目錄的 `AGENTS.md`。
 
 ## 目前最重要的認知
 

@@ -33,13 +33,16 @@
 
 也可以用 OneDrive、Google Drive 或其他同步資料夾，但同一檔案在兩台裝置同時編輯時可能產生衝突副本。若專案將包含程式碼，仍建議使用 Git。
 
-## 新對話提示詞
+## 快捷指令
 
 ```text
-請先閱讀 AGENTS.md、docs/START_HERE.md 與 docs/CURRENT_STATUS.md，
-再根據 docs/REQUIREMENTS.md、docs/DECISIONS.md 和
-docs/OPEN_QUESTIONS.md 接續信用卡渠道專案。
+開始或換裝置：讀取
+結束並同步：儲存
 ```
+
+`讀取` 會先檢查工作區；乾淨時以 fast-forward 模式同步遠端，再讀取專案狀態。若本機已有未提交修改，會先停下來回報，避免覆蓋。
+
+`儲存` 會整理本次討論到對應文件、檢查敏感資料、提交並推送到 `origin/main`。如果遠端有其他裝置的新提交而導致推送被拒絕，會保留本機內容並回報，不會自動強制推送。
 
 ## 不應同步到儲存庫的資料
 
