@@ -1,0 +1,34 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp
+*.log
+
+# Dependencies and build outputs
+node_modules/
+.venv/
+venv/
+dist/
+build/
+coverage/
+__pycache__/
+
+# Sensitive or ad-hoc exports
+exports/
+downloads/
+*.csv
+*.xlsx
+
