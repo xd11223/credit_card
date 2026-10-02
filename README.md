@@ -17,6 +17,7 @@
 ├── README.md                 # 人員入口
 ├── docs/
 │   ├── START_HERE.md         # 新裝置、新對話的最短入口
+│   ├── SPECIFICATION.md      # 主要產品與帳務規格草案
 │   ├── PROJECT_CONTEXT.md    # 專案背景與系統邊界
 │   ├── REQUIREMENTS.md       # 已知功能需求
 │   ├── DECISIONS.md          # 已確認決策與理由
